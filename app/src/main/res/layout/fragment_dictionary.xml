@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dictionary.DictionaryFragment">
+
+    <TextView
+        android:id="@+id/story_title_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_horizontal_margin"
+        android:fontFamily="@font/droid_kuffi"
+        android:gravity="center"
+        android:paddingStart="@dimen/activity_horizontal_padding"
+        android:paddingTop="@dimen/item_vertical_padding"
+        android:paddingEnd="@dimen/item_horizontal_padding"
+        android:paddingBottom="@dimen/item_vertical_padding"
+        android:text="@string/title_article"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableEndCompat="@drawable/story_article" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dictionary_rv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="@dimen/item_vertical_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/story_title_tv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

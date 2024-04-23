@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Anthropology-VAW</string>
+    <string name="title_home">Home</string>
+    <string name="title_article_dashboard">Article Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text">text</string>
+    <string name="title">title</string>
+    <string name="test">Test</string>
+    <string name="title_article">Article</string>
+    <string name="not_supported_language">not supported language</string>
+    <string name="text_to_speech_initialization_failed">text to speech initialization failed</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="next">Next</string>
+    <string name="succeeded">Succeeded</string>
+    <string name="success_description">"you result is "</string>
+    <string name="done">Done</string>
+    <string name="correct_answers">"correct answers "</string>
+    <string name="out_of">"Out of "</string>
+    <string name="failed">failed</string>
+    <string name="with">with</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_splash">splash</string>
+    <string name="category">القسم</string>
+</resources>

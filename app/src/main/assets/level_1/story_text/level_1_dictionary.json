@@ -1,0 +1,2179 @@
+{
+  "id": "level_1_dictionary",
+  "title": "Level 1 Dictionary",
+  "text": "",
+  "dictionaryList": [
+    {
+      "id": "1",
+      "storyId": "level_1_story_1",
+      "textEn": "Beautiful",
+      "textAr": "جميل"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_1",
+      "textEn": "Morning",
+      "textAr": "صباح"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_1",
+      "textEn": "Playful",
+      "textAr": "مرح"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_1",
+      "textEn": "Dog",
+      "textAr": "كلب"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_1",
+      "textEn": "Local",
+      "textAr": "محلي"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_1",
+      "textEn": "Park",
+      "textAr": "حديقة"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_1",
+      "textEn": "Sun",
+      "textAr": "شمس"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_1",
+      "textEn": "Shining",
+      "textAr": "مشرق"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_1",
+      "textEn": "Flowers",
+      "textAr": "زهور"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_1",
+      "textEn": "Roses",
+      "textAr": "ورود"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_1",
+      "textEn": "Tulips",
+      "textAr": "زنابق"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_1",
+      "textEn": "Daisies",
+      "textAr": "بابونج"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_1",
+      "textEn": "Fragrance",
+      "textAr": "عطر"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_1",
+      "textEn": "Chasing",
+      "textAr": "مطاردة"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_1",
+      "textEn": "Butterflies",
+      "textAr": "فراشات"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_1",
+      "textEn": "Birds",
+      "textAr": "طيور"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_1",
+      "textEn": "Oak tree",
+      "textAr": "شجرةالبلوط"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_1",
+      "textEn": "Cheese sandwich",
+      "textAr": "ساندويتش الجبن"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_1",
+      "textEn": "Wagged",
+      "textAr": "هز"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_1",
+      "textEn": "Fetch",
+      "textAr": "جلب"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_1",
+      "textEn": "Blue ball",
+      "textAr": "كرة زرقاء"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_1",
+      "textEn": "Afternoon",
+      "textAr": "بعد الظهر"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_1",
+      "textEn": "Content",
+      "textAr": "راضي"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_1",
+      "textEn": "Loyal",
+      "textAr": "وفي"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_1",
+      "textEn": "Friendship",
+      "textAr": "صداقة"
+    },
+    {
+      "id": "26",
+      "storyId": "level_1_story_1",
+      "textEn": "Vibrant",
+      "textAr": "نابض بالحياة"
+    },
+    {
+      "id": "27",
+      "storyId": "level_1_story_1",
+      "textEn": "Landscape",
+      "textAr": "منظر طبيعي"
+    },
+    {
+      "id": "28",
+      "storyId": "level_1_story_1",
+      "textEn": "Antics",
+      "textAr": "تصرفات مضحكة"
+    },
+    {
+      "id": "29",
+      "storyId": "level_1_story_1",
+      "textEn": "Serene",
+      "textAr": "هادئ"
+    },
+    {
+      "id": "30",
+      "storyId": "level_1_story_1",
+      "textEn": "Joy",
+      "textAr": "فرح"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_2",
+      "textAr": "قلم",
+      "textEn": "Pencil"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_2",
+      "textAr": "مدرسة",
+      "textEn": "School"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_2",
+      "textAr": "أخضر فاقع",
+      "textEn": "Bright green"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_2",
+      "textAr": "لمع",
+      "textEn": "Sparkled"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_2",
+      "textAr": "شمس",
+      "textEn": "Sun"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_2",
+      "textAr": "فضولي",
+      "textEn": "Curious"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_2",
+      "textAr": "صف",
+      "textEn": "Class"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_2",
+      "textAr": "فن",
+      "textEn": "Art"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_2",
+      "textAr": "قط",
+      "textEn": "Cat"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_2",
+      "textAr": "دهشة",
+      "textEn": "Astonishment"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_2",
+      "textAr": "سحر",
+      "textEn": "Magic"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_2",
+      "textAr": "متحمس",
+      "textEn": "Excited"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_2",
+      "textAr": "حديقة",
+      "textEn": "Garden"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_2",
+      "textAr": "زهور",
+      "textEn": "Flowers"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_2",
+      "textAr": "أشجار",
+      "textEn": "Trees"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_2",
+      "textAr": "حقيقي",
+      "textEn": "Real"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_2",
+      "textAr": "فصل دراسي",
+      "textEn": "Classroom"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_2",
+      "textAr": "غابة",
+      "textEn": "Jungle"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_2",
+      "textAr": "طيور",
+      "textEn": "Birds"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_2",
+      "textAr": "شلال",
+      "textEn": "Waterfall"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_2",
+      "textAr": "قوس قزح",
+      "textEn": "Rainbow"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_2",
+      "textAr": "خيال",
+      "textEn": "Imagination"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_2",
+      "textAr": "فرح",
+      "textEn": "Joy"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_2",
+      "textAr": "أحلام",
+      "textEn": "Dreams"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_2",
+      "textAr": "أداة",
+      "textEn": "Tool"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_3",
+      "textAr": "قرية",
+      "textEn": "Village"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_3",
+      "textAr": "جبال",
+      "textEn": "Mountains"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_3",
+      "textAr": "فتى",
+      "textEn": "Boy"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_3",
+      "textAr": "خريطة",
+      "textEn": "Map"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_3",
+      "textAr": "جد",
+      "textEn": "Grandfather"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_3",
+      "textAr": "علية",
+      "textEn": "Attic"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_3",
+      "textAr": "كنز",
+      "textEn": "Treasure"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_3",
+      "textAr": "غابة",
+      "textEn": "Forest"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_3",
+      "textAr": "مغامرة",
+      "textEn": "Adventure"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_3",
+      "textAr": "صباح",
+      "textEn": "Morning"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_3",
+      "textAr": "أساسيات",
+      "textEn": "Essentials"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_3",
+      "textAr": "نهر",
+      "textEn": "River"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_3",
+      "textAr": "جذع",
+      "textEn": "Log"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_3",
+      "textAr": "أحراش",
+      "textEn": "Thicket"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_3",
+      "textAr": "أشواك",
+      "textEn": "Thorns"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_3",
+      "textAr": "تصميم",
+      "textEn": "Determination"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_3",
+      "textAr": "رحلة",
+      "textEn": "Trekking"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_3",
+      "textAr": "صندوق",
+      "textEn": "Chest"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_3",
+      "textAr": "كتب",
+      "textEn": "Books"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_3",
+      "textAr": "قطع أثرية",
+      "textEn": "Artifacts"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_3",
+      "textAr": "قصص",
+      "textEn": "Stories"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_3",
+      "textAr": "اكتشاف",
+      "textEn": "Discovery"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_3",
+      "textAr": "إلهام",
+      "textEn": "Inspiration"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_4",
+      "textEn": "Sunny",
+      "textAr": "مشمس"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_4",
+      "textEn": "Excited",
+      "textAr": "متحمس"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_4",
+      "textEn": "Birthday",
+      "textAr": "عيد ميلاد"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_4",
+      "textEn": "Breakfast",
+      "textAr": "فطور"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_4",
+      "textEn": "Parents",
+      "textAr": "الوالدين"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_4",
+      "textEn": "Wrapped",
+      "textAr": "مغلف"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_4",
+      "textEn": "Box",
+      "textAr": "صندوق"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_4",
+      "textEn": "Shiny",
+      "textAr": "لامع"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_4",
+      "textEn": "Bike",
+      "textAr": "دراجة"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_4",
+      "textEn": "Ride",
+      "textAr": "ركوب"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_4",
+      "textEn": "Park",
+      "textAr": "حديقة"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_4",
+      "textEn": "Wobbled",
+      "textAr": "متذبذب"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_4",
+      "textEn": "Fell",
+      "textAr": "سقط"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_4",
+      "textEn": "Gave up",
+      "textAr": "استسلم"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_4",
+      "textEn": "Smoothly",
+      "textAr": "بسلاسة"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_4",
+      "textEn": "Breeze",
+      "textAr": "نسيم"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_4",
+      "textEn": "Shouted",
+      "textAr": "صرخ"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_4",
+      "textEn": "Proud",
+      "textAr": "فخور"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_4",
+      "textEn": "School",
+      "textAr": "مدرسة"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_4",
+      "textEn": "Joy",
+      "textAr": "فرح"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_4",
+      "textEn": "Freedom",
+      "textAr": "حرية"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_4",
+      "textEn": "Gift",
+      "textAr": "هدية"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_4",
+      "textEn": "Morning",
+      "textAr": "صباح"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_4",
+      "textEn": "Learning",
+      "textAr": "تعلم"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_4",
+      "textEn": "Favorite",
+      "textAr": "المفضل"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_5",
+      "textAr": "حديقة",
+      "textEn": "Garden"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_5",
+      "textAr": "أشجار",
+      "textEn": "Trees"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_5",
+      "textAr": "مكان",
+      "textEn": "Place"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_5",
+      "textAr": "طبيعة",
+      "textEn": "Nature"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_5",
+      "textAr": "سحر",
+      "textEn": "Magic"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_5",
+      "textAr": "عجائب",
+      "textEn": "Wonders"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_5",
+      "textAr": "حكيم",
+      "textEn": "Wise"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_5",
+      "textAr": "مرحبا",
+      "textEn": "Welcome"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_5",
+      "textAr": "أسبوعيًا",
+      "textEn": "Weekly"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_5",
+      "textAr": "زيارة",
+      "textEn": "Visiting"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_5",
+      "textAr": "مرئي",
+      "textEn": "Visible"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_5",
+      "textAr": "نابض بالحياة",
+      "textEn": "Vibrant"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_5",
+      "textAr": "شجرة",
+      "textEn": "Tree"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_5",
+      "textAr": "بلدة صغيرة",
+      "textEn": "Small town"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_5",
+      "textAr": "وقت",
+      "textEn": "Time"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_5",
+      "textAr": "يتحدث",
+      "textEn": "Talk"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_5",
+      "textAr": "خاص",
+      "textEn": "Special"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_5",
+      "textAr": "صغير",
+      "textEn": "Small"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_5",
+      "textAr": "غناء",
+      "textEn": "Singing"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_5",
+      "textAr": "سر",
+      "textEn": "Secret"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_5",
+      "textAr": "أجاب",
+      "textEn": "Replied"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_5",
+      "textAr": "ذكرى",
+      "textEn": "Reminded"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_5",
+      "textAr": "طاهر",
+      "textEn": "Pure"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_5",
+      "textAr": "وعد",
+      "textEn": "Promised"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_5",
+      "textAr": "مذهول",
+      "textEn": "Amazed"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_6",
+      "textEn": "Helping",
+      "textAr": "مساعدة"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_6",
+      "textEn": "Kitten",
+      "textAr": "قطة صغيرة"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_6",
+      "textEn": "Learned",
+      "textAr": "تعلمت"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_6",
+      "textEn": "Looked",
+      "textAr": "نظرت"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_6",
+      "textEn": "Lost",
+      "textAr": "ضائعة"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_6",
+      "textEn": "Meow",
+      "textAr": "مواء"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_6",
+      "textEn": "Mia",
+      "textAr": "ميا"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_6",
+      "textEn": "New",
+      "textAr": "جديد"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_6",
+      "textEn": "Number",
+      "textAr": "رقم"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_6",
+      "textEn": "Park",
+      "textAr": "الحديقة"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_6",
+      "textEn": "Phone",
+      "textAr": "هاتف"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_6",
+      "textEn": "Poster",
+      "textAr": "ملصق"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_6",
+      "textEn": "Proud",
+      "textAr": "فخورة"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_6",
+      "textEn": "Remembered",
+      "textAr": "تذكرت"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_6",
+      "textEn": "Rewarding",
+      "textAr": "مجزية"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_6",
+      "textEn": "Safe",
+      "textAr": "آمنة"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_6",
+      "textEn": "Said",
+      "textAr": "قالت"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_6",
+      "textEn": "Scared",
+      "textAr": "خائفة"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_6",
+      "textEn": "Seeing",
+      "textAr": "رؤية"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_6",
+      "textEn": "Small",
+      "textAr": "صغيرة"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_6",
+      "textEn": "Smiled",
+      "textAr": "ابتسمت"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_6",
+      "textEn": "Soon",
+      "textAr": "قريباً"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_6",
+      "textEn": "Sunny",
+      "textAr": "مشمس"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_7",
+      "textEn": "Night",
+      "textAr": "ليل"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_7",
+      "textEn": "Tom",
+      "textAr": "توم"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_7",
+      "textEn": "Dog",
+      "textAr": "كلب"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_7",
+      "textEn": "Dog",
+      "textAr": "كلب"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_7",
+      "textEn": "Max",
+      "textAr": "ماكس"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_7",
+      "textEn": "Explore",
+      "textAr": "يستكشف"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_7",
+      "textEn": "Forest",
+      "textAr": "غابة"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_7",
+      "textEn": "Moonlight",
+      "textAr": "ضوء القمر"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_7",
+      "textEn": "Quiet",
+      "textAr": "هادئ"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_7",
+      "textEn": "Moon",
+      "textAr": "قمر"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_7",
+      "textEn": "Shiny",
+      "textAr": "لامع"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_7",
+      "textEn": "Ground",
+      "textAr": "أرض"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_7",
+      "textEn": "Silver",
+      "textAr": "فضة"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_7",
+      "textEn": "Key",
+      "textAr": "مفتاح"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_7",
+      "textEn": "Wooden",
+      "textAr": "خشبي"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_7",
+      "textEn": "Chest",
+      "textAr": "صندوق"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_7",
+      "textEn": "Map",
+      "textAr": "خريطة"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_7",
+      "textEn": "Hidden",
+      "textAr": "مخفي"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_7",
+      "textEn": "Waterfall",
+      "textAr": "شلال"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_7",
+      "textEn": "Glowing",
+      "textAr": "متوهج"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_7",
+      "textEn": "Adventure",
+      "textAr": "مغامرة"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_7",
+      "textEn": "Magical",
+      "textAr": "سحري"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_7",
+      "textEn": "Together",
+      "textAr": "معاً"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_7",
+      "textEn": "Home",
+      "textAr": "منزل"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_7",
+      "textEn": "Secrets",
+      "textAr": "أسرار"
+    },
+    {
+      "id": "26",
+      "storyId": "level_1_story_7",
+      "textEn": "Reveal",
+      "textAr": "يكشف"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_8",
+      "textEn": "Ancient",
+      "textAr": "قديم"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_8",
+      "textEn": "Tree",
+      "textAr": "شجرة"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_8",
+      "textEn": "Windale",
+      "textAr": "ويندال"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_8",
+      "textEn": "Whisper",
+      "textAr": "يهمس"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_8",
+      "textEn": "Secrets",
+      "textAr": "أسرار"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_8",
+      "textEn": "Afternoon",
+      "textAr": "بعد الظهر"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_8",
+      "textEn": "Curious",
+      "textAr": "فضولي"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_8",
+      "textEn": "Gentle",
+      "textAr": "لطيف"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_8",
+      "textEn": "Sky",
+      "textAr": "سماء"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_8",
+      "textEn": "Clear",
+      "textAr": "صافي"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_8",
+      "textEn": "Protect",
+      "textAr": "يحمي"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_8",
+      "textEn": "Nature",
+      "textAr": "طبيعة"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_8",
+      "textEn": "Amazed",
+      "textAr": "مندهش"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_8",
+      "textEn": "Planting",
+      "textAr": "زراعة"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_8",
+      "textEn": "Flowers",
+      "textAr": "أزهار"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_8",
+      "textEn": "Cleaning",
+      "textAr": "تنظيف"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_8",
+      "textEn": "Park",
+      "textAr": "حديقة"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_8",
+      "textEn": "Inspired",
+      "textAr": "ملهم"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_8",
+      "textEn": "Blooming",
+      "textAr": "تزهر"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_8",
+      "textEn": "Air",
+      "textAr": "هواء"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_8",
+      "textEn": "Fresher",
+      "textAr": "أنقى"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_8",
+      "textEn": "Community",
+      "textAr": "مجتمع"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_8",
+      "textEn": "Environment",
+      "textAr": "بيئة"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_8",
+      "textEn": "Thank you",
+      "textAr": "شكرا لك"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_8",
+      "textEn": "Difference",
+      "textAr": "فرق"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_9",
+      "textEn": "Village",
+      "textAr": "قرية"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_9",
+      "textEn": "Starview",
+      "textAr": "ستارفيو اسم القرية"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_9",
+      "textEn": "Stars",
+      "textAr": "نجوم"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_9",
+      "textEn": "Night",
+      "textAr": "ليل"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_9",
+      "textEn": "Pattern",
+      "textAr": "نمط"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_9",
+      "textEn": "Twinkling",
+      "textAr": "وميض"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_9",
+      "textEn": "Message",
+      "textAr": "رسالة"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_9",
+      "textEn": "Telescope",
+      "textAr": "تلسكوب"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_9",
+      "textEn": "Protect",
+      "textAr": "حماية"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_9",
+      "textEn": "Sky",
+      "textAr": "سماء"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_9",
+      "textEn": "Light pollution",
+      "textAr": "تلوث ضوئي"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_9",
+      "textEn": "Beauty",
+      "textAr": "جمال"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_9",
+      "textEn": "Reduce",
+      "textAr": "تقليل"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_9",
+      "textEn": "Lights",
+      "textAr": "أضواء"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_9",
+      "textEn": "Months",
+      "textAr": "أشهر"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_9",
+      "textEn": "Clearer",
+      "textAr": "أوضح"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_9",
+      "textEn": "Constellations",
+      "textAr": "كوكبات"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_9",
+      "textEn": "Milky way",
+      "textAr": "درب التبانة"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_9",
+      "textEn": "Naked eyes",
+      "textAr": "العين المجردة"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_9",
+      "textEn": "Changed",
+      "textAr": "غيرت"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_9",
+      "textEn": "Harmony",
+      "textAr": "تناغم"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_9",
+      "textEn": "Nature",
+      "textAr": "طبيعة"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_9",
+      "textEn": "Ellie",
+      "textAr": "إيلي"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_9",
+      "textEn": "Meeting",
+      "textAr": "اجتماع"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_9",
+      "textEn": "Joy",
+      "textAr": "فرح"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_10",
+      "textAr": "مكتبة",
+      "textEn": "Library"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_10",
+      "textAr": "مسكون",
+      "textEn": "Haunted"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_10",
+      "textAr": "فضولي",
+      "textEn": "Curious"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_10",
+      "textAr": "يستكشف",
+      "textEn": "Explore"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_10",
+      "textAr": "حقيقة",
+      "textEn": "Truth"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_10",
+      "textAr": "مخفي",
+      "textEn": "Hidden"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_10",
+      "textAr": "مغبر",
+      "textEn": "Dusty"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_10",
+      "textAr": "لمع",
+      "textEn": "Glowed"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_10",
+      "textAr": "أساطير",
+      "textEn": "Legends"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_10",
+      "textAr": "غرفة",
+      "textEn": "Chamber"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_10",
+      "textAr": "سحري",
+      "textEn": "Magical"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_10",
+      "textAr": "تميمة",
+      "textEn": "Amulet"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_10",
+      "textAr": "القدرة",
+      "textEn": "Ability"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_10",
+      "textAr": "لغة",
+      "textEn": "Language"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_10",
+      "textAr": "سر",
+      "textEn": "Secret"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_10",
+      "textAr": "خريطة",
+      "textEn": "Map"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_10",
+      "textAr": "غرفة",
+      "textEn": "Room"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_10",
+      "textAr": "كتاب",
+      "textEn": "Book"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_10",
+      "textAr": "أضاء",
+      "textEn": "Lit up"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_10",
+      "textAr": "حماس",
+      "textEn": "Excitement"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_10",
+      "textAr": "تبع",
+      "textEn": "Followed"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_10",
+      "textAr": "محفوظ",
+      "textEn": "Kept"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_10",
+      "textAr": "لمس",
+      "textEn": "Touch"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_10",
+      "textAr": "يفهم",
+      "textEn": "Understand"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_10",
+      "textAr": "يحمي",
+      "textEn": "Protecting"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_11",
+      "textAr": "منارة",
+      "textEn": "Lighthouse"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_11",
+      "textAr": "ساحلي",
+      "textEn": "Coastal"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_11",
+      "textAr": "عاصف",
+      "textEn": "Stormy"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_11",
+      "textAr": "يحقق",
+      "textEn": "Investigate"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_11",
+      "textAr": "مصباح يدوي",
+      "textEn": "Flashlight"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_11",
+      "textAr": "محاصر",
+      "textEn": "Trapped"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_11",
+      "textAr": "رف",
+      "textEn": "Shelf"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_11",
+      "textAr": "قطعة أثرية",
+      "textEn": "Artifact"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_11",
+      "textAr": "ظل",
+      "textEn": "Shadow"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_11",
+      "textAr": "حدس",
+      "textEn": "Intuition"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_11",
+      "textAr": "كهف",
+      "textEn": "Cave"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_11",
+      "textAr": "صائدو الكنوز",
+      "textEn": "Treasure hunters"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_11",
+      "textAr": "يسترد",
+      "textEn": "Retrieve"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_11",
+      "textAr": "يُخيف",
+      "textEn": "Scare off"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_11",
+      "textAr": "بطولة",
+      "textEn": "Heroism"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_11",
+      "textAr": "مصباح كهربائي",
+      "textEn": "Light bulb"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_11",
+      "textAr": "مسروق",
+      "textEn": "Stolen"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_11",
+      "textAr": "يواجه",
+      "textEn": "Confront"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_11",
+      "textAr": "سر",
+      "textEn": "Secret"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_11",
+      "textAr": "خريطة",
+      "textEn": "Map"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_11",
+      "textAr": "يضيء",
+      "textEn": "Illuminate"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_11",
+      "textAr": "مغامرة",
+      "textEn": "Adventure"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_11",
+      "textAr": "لغز",
+      "textEn": "Mystery"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_11",
+      "textAr": "شجاعة",
+      "textEn": "Courage"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_11",
+      "textAr": "احتفال",
+      "textEn": "Celebration"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_12",
+      "textAr": "غابة",
+      "textEn": "Forest"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_12",
+      "textAr": "شجرة",
+      "textEn": "Tree"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_12",
+      "textAr": "طيور",
+      "textEn": "Birds"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_12",
+      "textAr": "حيوانات",
+      "textEn": "Animals"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_12",
+      "textAr": "عاصفة",
+      "textEn": "Storm"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_12",
+      "textAr": "سناجب",
+      "textEn": "Squirrels"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_12",
+      "textAr": "عالقون",
+      "textEn": "Stranded"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_12",
+      "textAr": "فرع",
+      "textEn": "Branch"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_12",
+      "textAr": "طبيعة",
+      "textEn": "Nature"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_12",
+      "textAr": "حبال",
+      "textEn": "Ropes"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_12",
+      "textAr": "سلم",
+      "textEn": "Ladder"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_12",
+      "textAr": "سلة",
+      "textEn": "Basket"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_12",
+      "textAr": "أرض",
+      "textEn": "Ground"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_12",
+      "textAr": "مجتمع",
+      "textEn": "Community"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_12",
+      "textAr": "يصلح",
+      "textEn": "Repair"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_12",
+      "textAr": "يحمي",
+      "textEn": "Protect"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_12",
+      "textAr": "ممتنون",
+      "textEn": "Grateful"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_12",
+      "textAr": "استعادة",
+      "textEn": "Restoration"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_12",
+      "textAr": "احتفل",
+      "textEn": "Celebrated"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_12",
+      "textAr": "أبطال",
+      "textEn": "Heroes"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_12",
+      "textAr": "رابط",
+      "textEn": "Bond"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_12",
+      "textAr": "عمل جماعي",
+      "textEn": "Teamwork"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_12",
+      "textAr": "لطيف",
+      "textEn": "Gentle"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_12",
+      "textAr": "خائفون",
+      "textEn": "Scared"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_12",
+      "textAr": "مصمم",
+      "textEn": "Determined"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_13",
+      "textAr": "غامض",
+      "textEn": "Mysterious"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_13",
+      "textAr": "مخبز",
+      "textEn": "Bakery"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_13",
+      "textAr": "لذيذ",
+      "textEn": "Delicious"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_13",
+      "textAr": "فضولي",
+      "textEn": "Curious"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_13",
+      "textAr": "مغامر",
+      "textEn": "Adventurous"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_13",
+      "textAr": "منتصف الليل",
+      "textEn": "Midnight"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_13",
+      "textAr": "دهشة",
+      "textEn": "Astonishment"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_13",
+      "textAr": "مراييل",
+      "textEn": "Aprons"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_13",
+      "textAr": "مكونات",
+      "textEn": "Ingredients"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_13",
+      "textAr": "أفران",
+      "textEn": "Ovens"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_13",
+      "textAr": "مغامرة",
+      "textEn": "Adventure"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_13",
+      "textAr": "مسحور",
+      "textEn": "Enchanted"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_13",
+      "textAr": "فرح",
+      "textEn": "Joy"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_13",
+      "textAr": "حلاوة",
+      "textEn": "Sweetness"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_13",
+      "textAr": "قلب",
+      "textEn": "Heart"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_13",
+      "textAr": "رفقة",
+      "textEn": "Camaraderie"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_13",
+      "textAr": "تجمعوا",
+      "textEn": "Gathered"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_13",
+      "textAr": "إبداعات",
+      "textEn": "Creations"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_13",
+      "textAr": "انتشر",
+      "textEn": "Spread"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_13",
+      "textAr": "مجتمع",
+      "textEn": "Community"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_13",
+      "textAr": "حيوانات",
+      "textEn": "Animals"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_13",
+      "textAr": "مهارة",
+      "textEn": "Skill"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_13",
+      "textAr": "دفء",
+      "textEn": "Warmth"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_13",
+      "textAr": "بلدة",
+      "textEn": "Town"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_13",
+      "textAr": "طعام",
+      "textEn": "Food"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_14",
+      "textEn": "Artist",
+      "textAr": "فنان"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_14",
+      "textEn": "Dreams",
+      "textAr": "أحلام"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_14",
+      "textEn": "Reality",
+      "textAr": "واقع"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_14",
+      "textEn": "Vivid",
+      "textAr": "نابض بالحياة"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_14",
+      "textEn": "Fantastical",
+      "textAr": "خيالي"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_14",
+      "textEn": "Mysterious",
+      "textAr": "غامض"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_14",
+      "textEn": "Unity",
+      "textAr": "وحدة"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_14",
+      "textEn": "Inspiration",
+      "textAr": "إلهام"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_14",
+      "textEn": "Harmony",
+      "textAr": "تناغم"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_14",
+      "textEn": "Joy",
+      "textAr": "فرح"
+    },
+    {
+      "id": "1",
+      "storyId": "level_1_story_15",
+      "textEn": "Map",
+      "textAr": "خريطة"
+    },
+    {
+      "id": "2",
+      "storyId": "level_1_story_15",
+      "textEn": "Treasure",
+      "textAr": "كنز"
+    },
+    {
+      "id": "3",
+      "storyId": "level_1_story_15",
+      "textEn": "Pirates",
+      "textAr": "قراصنة"
+    },
+    {
+      "id": "4",
+      "storyId": "level_1_story_15",
+      "textEn": "Beach",
+      "textAr": "شاطئ"
+    },
+    {
+      "id": "5",
+      "storyId": "level_1_story_15",
+      "textEn": "Forests",
+      "textAr": "غابات"
+    },
+    {
+      "id": "6",
+      "storyId": "level_1_story_15",
+      "textEn": "Rivers",
+      "textAr": "أنهار"
+    },
+    {
+      "id": "7",
+      "storyId": "level_1_story_15",
+      "textEn": "Caves",
+      "textAr": "كهوف"
+    },
+    {
+      "id": "8",
+      "storyId": "level_1_story_15",
+      "textEn": "Riddles",
+      "textAr": "ألغاز"
+    },
+    {
+      "id": "9",
+      "storyId": "level_1_story_15",
+      "textEn": "Quicksand",
+      "textAr": "رمال متحركة"
+    },
+    {
+      "id": "10",
+      "storyId": "level_1_story_15",
+      "textEn": "Teamwork",
+      "textAr": "عمل الفريق"
+    },
+    {
+      "id": "11",
+      "storyId": "level_1_story_15",
+      "textEn": "Adventure",
+      "textAr": "مغامرة"
+    },
+    {
+      "id": "12",
+      "storyId": "level_1_story_15",
+      "textEn": "Gems",
+      "textAr": "جواهر"
+    },
+    {
+      "id": "13",
+      "storyId": "level_1_story_15",
+      "textEn": "Challenge",
+      "textAr": "تحد"
+    },
+    {
+      "id": "14",
+      "storyId": "level_1_story_15",
+      "textEn": "Journey",
+      "textAr": "رحلة"
+    },
+    {
+      "id": "15",
+      "storyId": "level_1_story_15",
+      "textEn": "Friendship",
+      "textAr": "صداقة"
+    },
+    {
+      "id": "16",
+      "storyId": "level_1_story_15",
+      "textEn": "Dense",
+      "textAr": "كثيف"
+    },
+    {
+      "id": "17",
+      "storyId": "level_1_story_15",
+      "textEn": "Escape",
+      "textAr": "يهرب"
+    },
+    {
+      "id": "18",
+      "storyId": "level_1_story_15",
+      "textEn": "Location",
+      "textAr": "موقع"
+    },
+    {
+      "id": "19",
+      "storyId": "level_1_story_15",
+      "textEn": "Chest",
+      "textAr": "صندوق"
+    },
+    {
+      "id": "20",
+      "storyId": "level_1_story_15",
+      "textEn": "Gold coins",
+      "textAr": "عملات ذهبية"
+    },
+    {
+      "id": "21",
+      "storyId": "level_1_story_15",
+      "textEn": "Precious",
+      "textAr": "ثمين"
+    },
+    {
+      "id": "22",
+      "storyId": "level_1_story_15",
+      "textEn": "Message",
+      "textAr": "رسالة"
+    },
+    {
+      "id": "23",
+      "storyId": "level_1_story_15",
+      "textEn": "Discover",
+      "textAr": "يكتشف"
+    },
+    {
+      "id": "24",
+      "storyId": "level_1_story_15",
+      "textEn": "Overcome",
+      "textAr": "يتغلب"
+    },
+    {
+      "id": "25",
+      "storyId": "level_1_story_15",
+      "textEn": "Light",
+      "textAr": "ضوء"
+    }
+  ]
+}

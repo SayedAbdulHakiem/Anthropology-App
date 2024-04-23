@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/test_result_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/style_custom_radius_backg"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:cornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/correct_answers_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="0"
+                android:textColor="@color/design_default_color_primary_variant"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="4dp"
+                android:background="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/total_questions_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/design_default_color_primary_variant"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/result_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="@string/succeeded"
+                android:textColor="@color/design_default_color_primary_variant"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/done_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/item_vertical_margin"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/done"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/design_default_color_primary_variant"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/result_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/success"
+        app:layout_constraintBottom_toTopOf="@id/layout_dialog"
+        app:layout_constraintEnd_toEndOf="@id/layout_dialog"
+        app:layout_constraintStart_toStartOf="@id/layout_dialog"
+        app:layout_constraintTop_toTopOf="@id/layout_dialog" />
+</androidx.constraintlayout.widget.ConstraintLayout>
