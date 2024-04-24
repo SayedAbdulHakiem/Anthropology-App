@@ -11,9 +11,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Category implements Serializable {
+public class ArticleCategory implements Serializable {
     private String id;
     private String title;
     private String text;
-
 }

@@ -14,6 +14,8 @@ import androidx.navigation.ui.NavigationUI;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.sayed.anthropology.databinding.ActivityMainBinding;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
@@ -36,14 +38,16 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+        Objects.requireNonNull(getSupportActionBar()).hide();
         binding.navView.setVisibility(View.GONE);
         handler = new Handler();
         handler.postDelayed(() -> {
             navController.popBackStack();
             navController.navigate(R.id.navigation_story_dashboard);
-            binding.navView.setVisibility(View.VISIBLE);
             handler.removeCallbacksAndMessages(null);
-        }, 1200);
+            Objects.requireNonNull(getSupportActionBar()).show();
+            binding.navView.setVisibility(View.VISIBLE);
+        }, 2000);
     }
 
 }

@@ -37,7 +37,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.AdapterV
     public void onBindViewHolder(@NonNull AdapterViewHolder holder, int position) {
         holder.titleTV.setText(dataList.get(position).getTitle());
         holder.textTv.setText(StringUtils.shortenString(dataList.get(position).getText(), 100));
-        holder.storyImage.setImageDrawable(AssetUtils.getImageDrawable(fragment.getContext(), dataList.get(position).getId()));
+        holder.articleImage.setImageDrawable(AssetUtils.getImageDrawable(fragment.getContext(), dataList.get(position).getId()));
         holder.itemView.setOnClickListener(view -> {
             ((ArticleDashboardFragment)fragment).openStoryFragment(dataList.get(position));
         });
@@ -65,13 +65,13 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.AdapterV
     public class AdapterViewHolder extends RecyclerView.ViewHolder {
 
         TextView titleTV, textTv;
-        ImageView storyImage;
+        ImageView articleImage;
 
         public AdapterViewHolder(@NonNull View itemView) {
             super(itemView);
             titleTV = itemView.findViewById(R.id.title_tv);
             textTv = itemView.findViewById(R.id.text_tv);
-            storyImage = itemView.findViewById(R.id.story_image);
+            articleImage = itemView.findViewById(R.id.article_image);
         }
     }
 }

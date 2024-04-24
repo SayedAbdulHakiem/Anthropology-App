@@ -10,14 +10,14 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sayed.anthropology.R;
-import com.sayed.anthropology.model.Category;
+import com.sayed.anthropology.model.ArticleCategory;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.AdapterViewHolder> {
-    private List<Category> dataList = new ArrayList<>();
+    private List<ArticleCategory> dataList = new ArrayList<>();
     private Fragment fragment;
 
     public CategoryAdapter(Fragment fragment) {
@@ -47,11 +47,11 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Adapte
         return dataList.size();
     }
 
-    public List<Category> getDataList() {
+    public List<ArticleCategory> getDataList() {
         return dataList;
     }
 
-    public void setDataList(List<Category> dataList) {
+    public void setDataList(List<ArticleCategory> dataList) {
         this.dataList = dataList;
         notifyDataSetChanged();
     }

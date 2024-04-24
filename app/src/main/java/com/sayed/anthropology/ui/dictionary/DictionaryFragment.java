@@ -70,7 +70,7 @@ public class DictionaryFragment extends Fragment {
         binding.dictionaryRv.setLayoutManager(new LinearLayoutManager(getActivity()));
         binding.dictionaryRv.setAdapter(dictionaryAdapter);
         if (article != null) {
-            dictionaryAdapter.setDataList(article.getDictionaryList());
+//            dictionaryAdapter.setDataList(article.getDictionaryList());
             binding.storyTitleTv.setText(this.article.getTitle());
         } else {
             binding.storyTitleTv.setVisibility(View.GONE);

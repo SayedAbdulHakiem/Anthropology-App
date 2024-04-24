@@ -13,17 +13,16 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.sayed.anthropology.R;
+import com.sayed.anthropology.data.repository.CategoriesRepository;
 import com.sayed.anthropology.data.repository.ArticleRepository;
 import com.sayed.anthropology.databinding.FragmentArticleDashboardBinding;
 import com.sayed.anthropology.model.Article;
-import com.sayed.anthropology.model.Category;
-
-import java.util.Arrays;
 
 public class ArticleDashboardFragment extends Fragment {
     ArticleAdapter articleAdapter;
     CategoryAdapter categoryAdapter;
     ArticleRepository articleRepository;
+    CategoriesRepository categoriesRepository;
     private FragmentArticleDashboardBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -31,6 +30,7 @@ public class ArticleDashboardFragment extends Fragment {
         DashboardViewModel dashboardViewModel = new ViewModelProvider(this).get(DashboardViewModel.class);
 
         articleRepository = new ArticleRepository(this.requireActivity());
+        categoriesRepository = new CategoriesRepository(this.requireActivity());
         binding = FragmentArticleDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
@@ -41,9 +41,7 @@ public class ArticleDashboardFragment extends Fragment {
         binding.categoryRv.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
         binding.categoryRv.setAdapter(categoryAdapter);
         articleAdapter.setDataList(articleRepository.findAll());
-        categoryAdapter.setDataList(Arrays.asList(new Category("1", "الطب الشرعي", ""),new Category("1", "مفاهيم", "")));
-
-
+        categoryAdapter.setDataList(categoriesRepository.findAll());
         return root;
     }
 
