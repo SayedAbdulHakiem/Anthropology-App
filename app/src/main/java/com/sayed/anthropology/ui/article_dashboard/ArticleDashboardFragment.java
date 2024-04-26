@@ -29,11 +29,10 @@ public class ArticleDashboardFragment extends Fragment {
     CategoryAdapter categoryAdapter;
     ArticleRepository articleRepository;
     CategoriesRepository categoriesRepository;
-    private FragmentArticleDashboardBinding binding;
     ArticleDashboardViewModel articleDashboardViewModel;
     List<Article> articleList;
     List<ArticleCategory> articleCategoryList;
-
+    private FragmentArticleDashboardBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         articleDashboardViewModel = new ViewModelProvider(this).get(ArticleDashboardViewModel.class);
@@ -69,7 +68,7 @@ public class ArticleDashboardFragment extends Fragment {
 
             @Override
             public boolean onQueryTextChange(String query) {
-                if (StringUtils.hasText(query)){
+                if (StringUtils.hasText(query)) {
                     articleAdapter.setDataList(filteredArticles(query));
                 }
                 return false;

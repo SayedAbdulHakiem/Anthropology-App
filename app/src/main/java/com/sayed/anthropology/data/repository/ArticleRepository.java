@@ -17,16 +17,16 @@ public class ArticleRepository {
         ArticleRepository.context = context;
     }
 
+    public static Article getArticleFromAsset(String articleId) {
+        return AssetUtils.getArticleFromJson(context, articleId);
+    }
+
     public List<Article> findAll() {
         return AssetUtils.getAllArticlesFromJson(context);
     }
 
     public List<Article> getArticlesByCategory(ArticleCategory articleCategory) {
         return findAll().stream().filter(article -> Objects.equals(article.getCategoryId(), articleCategory.getId())).collect(Collectors.toList());
-    }
-
-    public static Article getArticleFromAsset(String articleId) {
-        return AssetUtils.getArticleFromJson(context, articleId);
     }
 
 }

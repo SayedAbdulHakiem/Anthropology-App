@@ -15,12 +15,12 @@ public class CategoriesRepository {
         CategoriesRepository.context = context;
     }
 
+    public static Categories getCategoriesFromAsset() {
+        return AssetUtils.getArticleCategoryFromJson(context);
+    }
+
     public List<ArticleCategory> findAll() {
 
         return getCategoriesFromAsset().getCategoryList();
-    }
-
-    public static Categories getCategoriesFromAsset() {
-        return AssetUtils.getArticleCategoryFromJson(context);
     }
 }

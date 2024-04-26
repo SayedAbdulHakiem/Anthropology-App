@@ -20,11 +20,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ConceptFragment extends Fragment {
-    private ConceptViewModel conceptViewModel;
     ConceptRepository conceptRepository;
     ConceptAdapter conceptAdapter;
     FragmentConceptBinding binding;
     List<Concept> conceptList;
+    private ConceptViewModel conceptViewModel;
 
     public ConceptFragment() {
     }

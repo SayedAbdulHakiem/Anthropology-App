@@ -32,19 +32,17 @@ import java.util.Locale;
 
 public class ArticleFragment extends Fragment {
 
-    private ArticleViewModel articleViewModel;
-
     FragmentArticleBinding binding;
     Article article;
     Bundle bundle;
     TextToSpeech textToSpeech;
-
-    private int currentPosition = 0;
-    private String spokenText = "";
-    private int spokenLength = 0;
     SpannableString spannableString;
     ForegroundColorSpan colorSpan = new ForegroundColorSpan(Color.YELLOW);
     StyleSpan boldSpan = new StyleSpan(Typeface.BOLD_ITALIC);
+    private ArticleViewModel articleViewModel;
+    private int currentPosition = 0;
+    private String spokenText = "";
+    private int spokenLength = 0;
 
     public ArticleFragment() {
         this.article = new Article();

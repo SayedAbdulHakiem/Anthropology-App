@@ -4,7 +4,6 @@
     <string name="title_notifications">تعريف</string>
     <string name="text">المحتوى</string>
     <string name="title">العنوان</string>
-    <string name="test">Test</string>
     <string name="title_article">مقالة</string>
     <string name="not_supported_language">لغة النطق غير معرفة</string>
     <string name="text_to_speech_initialization_failed">فشل تعريف ناطق الكلمات</string>
