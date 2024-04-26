@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">Anthropology-VAW</string>
-    <string name="title_home">Home</string>
+    <string name="app_name">أنثربولوجي</string>
     <string name="home">الرئيسية</string>
     <string name="title_notifications">تعريف</string>
     <string name="text">المحتوى</string>
@@ -9,7 +8,6 @@
     <string name="title_article">مقالة</string>
     <string name="not_supported_language">لغة النطق غير معرفة</string>
     <string name="text_to_speech_initialization_failed">فشل تعريف ناطق الكلمات</string>
-    <string name="dictionary">Dictionary</string>
     <string name="title_concepts">مفاهيم</string>
     <string name="category">القسم</string>
     <string name="search">بحث</string>

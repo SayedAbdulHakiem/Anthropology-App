@@ -22,8 +22,6 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 
 import com.sayed.anthropology.R;
 import com.sayed.anthropology.databinding.FragmentArticleBinding;
@@ -111,13 +109,6 @@ public class ArticleFragment extends Fragment {
                 resumeSpeech();
             }
         });
-
-        binding.testBtn.setOnClickListener(view -> {
-            openArticleTestFragment(this.article);
-        });
-        binding.dictionaryBtn.setOnClickListener(view -> {
-            openConceptsFragment(this.article);
-        });
     }
 
     private void setArticleData(Article article) {
@@ -153,7 +144,6 @@ public class ArticleFragment extends Fragment {
                 Toast.makeText(requireActivity(), getString(R.string.text_to_speech_initialization_failed), Toast.LENGTH_LONG).show();
             }
         });
-
 
     }
 
@@ -249,20 +239,6 @@ public class ArticleFragment extends Fragment {
             }
         });
     }
-
-    public void openArticleTestFragment(Article article) {
-        Bundle bundle = new Bundle();
-        bundle.putSerializable("article", article);
-        NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment_activity_main);
-//        navController.navigate(R.id.navigation_article_test, bundle);
-    }
-
-    public void openConceptsFragment(Article article) {
-        Bundle bundle = new Bundle();
-        NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment_activity_main);
-        navController.navigate(R.id.navigation_concept, bundle);
-    }
-
 
     @Override
     public void onPause() {

@@ -29,8 +29,8 @@
 
         <LinearLayout
             android:id="@+id/selected_layout"
-            android:layout_width="60dp"
-            android:layout_height="2dp"
+            android:layout_width="30dp"
+            android:layout_height="1.5dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginHorizontal="@dimen/item_horizontal_margin"
             android:background="?attr/colorPrimary"
