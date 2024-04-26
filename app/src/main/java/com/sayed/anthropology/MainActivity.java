@@ -26,14 +26,12 @@ public class MainActivity extends AppCompatActivity {
         // Handle the Default splash screen transition.
         SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
-
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
         BottomNavigationView navView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(R.id.navigation_splash, R.id.navigation_story, R.id.navigation_dictionary, R.id.navigation_home, R.id.navigation_story_dashboard, R.id.navigation_notifications)
+        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(R.id.navigation_splash, R.id.navigation_article, R.id.navigation_concept, R.id.navigation_home, R.id.navigation_article_dashboard, R.id.navigation_notifications)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
@@ -43,11 +41,11 @@ public class MainActivity extends AppCompatActivity {
         handler = new Handler();
         handler.postDelayed(() -> {
             navController.popBackStack();
-            navController.navigate(R.id.navigation_story_dashboard);
+            navController.navigate(R.id.navigation_article_dashboard);
             handler.removeCallbacksAndMessages(null);
             Objects.requireNonNull(getSupportActionBar()).show();
             binding.navView.setVisibility(View.VISIBLE);
-        }, 2000);
+        }, 3000);
     }
 
 }

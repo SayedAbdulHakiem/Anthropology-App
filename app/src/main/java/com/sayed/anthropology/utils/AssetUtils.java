@@ -7,19 +7,21 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sayed.anthropology.data.StringUtils;
 import com.sayed.anthropology.model.Article;
 import com.sayed.anthropology.model.Categories;
+import com.sayed.anthropology.model.Concept;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Arrays;
+import java.util.List;
 
 public class AssetUtils {
     public static String IMAGES_PATH = "images/";
     public static String IMAGE_EXTENSION = ".jpg";
-
-    public static String ARTICLE_TEXT_PATH = "article_text/";
+    public static String ARTICLE_TEXT_PATH = "articles/";
+    public static String ARTICLES_TEXT_FULL_PATH = "articles/articles.json";
+    public static String CONCEPTS_TEXT_FULL_PATH = "concepts/concepts.json";
     public static String ARTICLE_TEXT_EXTENSION = ".json";
-
-    public static String ARTICLE_CATEGORIES_PATH = "article_category/categories";
-    public static String CATEGORY_TEXT_EXTENSION = ".json";
+    public static String ARTICLE_CATEGORIES_FULL_PATH = "categories/article_categories.json";
 
     private static String getImagePath(String articleId) {
         return IMAGES_PATH + articleId + IMAGE_EXTENSION;
@@ -29,8 +31,16 @@ public class AssetUtils {
         return ARTICLE_TEXT_PATH + articleId + ARTICLE_TEXT_EXTENSION;
     }
 
+    private static String getArticlesPath() {
+        return ARTICLES_TEXT_FULL_PATH;
+    }
+
+    private static String getConceptsPath() {
+        return CONCEPTS_TEXT_FULL_PATH;
+    }
+
     private static String getArticleCategoriesTextPath() {
-        return ARTICLE_CATEGORIES_PATH + CATEGORY_TEXT_EXTENSION;
+        return ARTICLE_CATEGORIES_FULL_PATH;
     }
 
 
@@ -63,8 +73,22 @@ public class AssetUtils {
         }
     }
 
-    public static Categories getArticleCategoryFromJson(Context context) {
+    public static List<Article> getAllArticlesFromJson(Context context) {
 
+        try {
+            InputStream inputStream = context.getAssets().open(getArticlesPath());
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<Article> articles = Arrays.asList(objectMapper.readValue(inputStream, Article[].class));
+            inputStream.close();
+            return articles;
+        } catch (
+                IOException e) {
+            return null;
+        }
+
+    }
+
+    public static Categories getArticleCategoryFromJson(Context context) {
         try {
             InputStream inputStream = context.getAssets().open(getArticleCategoriesTextPath());
             ObjectMapper objectMapper = new ObjectMapper();
@@ -76,4 +100,18 @@ public class AssetUtils {
         }
     }
 
+    public static List<Concept> getAllConceptsFromJson(Context context) {
+
+        try {
+            InputStream inputStream = context.getAssets().open(getConceptsPath());
+            ObjectMapper objectMapper = new ObjectMapper();
+            List<Concept> conceptList = Arrays.asList(objectMapper.readValue(inputStream, Concept[].class));
+            inputStream.close();
+            return conceptList;
+        } catch (
+                IOException e) {
+            return null;
+        }
+
+    }
 }

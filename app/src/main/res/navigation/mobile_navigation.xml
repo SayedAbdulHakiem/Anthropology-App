@@ -10,33 +10,33 @@
         android:name="com.sayed.anthropology.ui.splash.SplashFragment"
         tools:layout="@layout/fragment_splash">
         <action
-            android:id="@+id/action_navigation_splash_to_navigation_story_dashboard"
-            app:destination="@id/navigation_story_dashboard" />
+            android:id="@+id/action_navigation_splash_to_navigation_article_dashboard"
+            app:destination="@id/navigation_article_dashboard" />
     </fragment>
     <fragment
-        android:id="@+id/navigation_story_dashboard"
+        android:id="@+id/navigation_article_dashboard"
         android:name="com.sayed.anthropology.ui.article_dashboard.ArticleDashboardFragment"
-        android:label="@string/title_article_dashboard"
+        android:label="@string/home"
         tools:layout="@layout/fragment_article_dashboard">
         <action
-            android:id="@+id/action_navigation_story_dashboard_to_navigation_story"
-            app:destination="@id/navigation_story" />
+            android:id="@+id/action_navigation_article_dashboard_to_navigation_article"
+            app:destination="@id/navigation_article" />
     </fragment>
 
     <fragment
-        android:id="@+id/navigation_story"
+        android:id="@+id/navigation_article"
         android:name="com.sayed.anthropology.ui.article.ArticleFragment"
         android:label="@string/title_article"
         tools:layout="@layout/fragment_article">
         <action
-            android:id="@+id/action_navigation_story_to_navigation_dictionary"
-            app:destination="@id/navigation_dictionary" />
+            android:id="@+id/action_navigation_article_to_navigation_concept"
+            app:destination="@id/navigation_concept" />
     </fragment>
     <fragment
-        android:id="@+id/navigation_dictionary"
-        android:name="com.sayed.anthropology.ui.dictionary.DictionaryFragment"
-        android:label="@string/title_dictionary"
-        tools:layout="@layout/fragment_dictionary" />
+        android:id="@+id/navigation_concept"
+        android:name="com.sayed.anthropology.ui.concepts.ConceptFragment"
+        android:label="@string/title_concepts"
+        tools:layout="@layout/fragment_concept" />
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.sayed.anthropology.ui.home.HomeFragment"
@@ -45,8 +45,8 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.sayed.anthropology.ui.notifications.NotificationsFragment"
+        android:name="com.sayed.anthropology.ui.about.AboutFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_about" />
 
 </navigation>

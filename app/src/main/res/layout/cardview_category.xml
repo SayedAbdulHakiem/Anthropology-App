@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="100dp"
+    android:layout_width="120dp"
     android:layout_height="wrap_content"
     android:layout_marginHorizontal="@dimen/item_horizontal_margin"
     app:cardCornerRadius="12dp">
@@ -24,7 +24,18 @@
             android:gravity="center"
             android:text="@string/category"
             android:textSize="@dimen/text_size_small"
-            app:drawableTopCompat="@drawable/success" />
+            app:drawableTint="?attr/colorPrimary"
+            app:drawableTopCompat="@drawable/ic_dashboard_black_24dp" />
+
+        <LinearLayout
+            android:id="@+id/selected_layout"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/item_horizontal_margin"
+            android:background="?attr/colorPrimary"
+            android:orientation="horizontal"
+            android:visibility="visible" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.cardview.widget.CardView>

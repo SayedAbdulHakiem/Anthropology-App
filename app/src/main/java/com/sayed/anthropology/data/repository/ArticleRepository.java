@@ -3,10 +3,12 @@ package com.sayed.anthropology.data.repository;
 import android.content.Context;
 
 import com.sayed.anthropology.model.Article;
+import com.sayed.anthropology.model.ArticleCategory;
 import com.sayed.anthropology.utils.AssetUtils;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class ArticleRepository {
     static Context context;
@@ -16,20 +18,11 @@ public class ArticleRepository {
     }
 
     public List<Article> findAll() {
-        List<Article> articleList = new ArrayList<>();
+        return AssetUtils.getAllArticlesFromJson(context);
+    }
 
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-        articleList.add(getArticleFromAsset("article_1"));
-
-
-        return articleList;
+    public List<Article> getArticlesByCategory(ArticleCategory articleCategory) {
+        return findAll().stream().filter(article -> Objects.equals(article.getCategoryId(), articleCategory.getId())).collect(Collectors.toList());
     }
 
     public static Article getArticleFromAsset(String articleId) {

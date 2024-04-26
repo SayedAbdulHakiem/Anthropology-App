@@ -3,6 +3,7 @@ package com.sayed.anthropology.ui.article_dashboard;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -14,9 +15,11 @@ import com.sayed.anthropology.model.ArticleCategory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.AdapterViewHolder> {
+    ArticleCategory selectedItem = null;
     private List<ArticleCategory> dataList = new ArrayList<>();
     private Fragment fragment;
 
@@ -32,9 +35,14 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Adapte
 
     @Override
     public void onBindViewHolder(@NonNull AdapterViewHolder holder, int position) {
+        if (Objects.equals(selectedItem, dataList.get(position))) {
+            holder.selectedLayout.setVisibility(View.VISIBLE);
+        } else {
+            holder.selectedLayout.setVisibility(View.GONE);
+        }
         holder.titleTV.setText(dataList.get(position).getTitle());
         holder.itemView.setOnClickListener(view -> {
-//            ((ArticleDashboardFragment)fragment).openStoryFragment(dataList.get(position));
+            ((ArticleDashboardFragment) fragment).selectCategory(dataList.get(position));
         });
     }
 
@@ -56,14 +64,22 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.Adapte
         notifyDataSetChanged();
     }
 
+    public void setSelectedItem(ArticleCategory articleCategory) {
+        this.selectedItem = articleCategory;
+        notifyDataSetChanged();
+    }
+
 
     public class AdapterViewHolder extends RecyclerView.ViewHolder {
 
         TextView titleTV;
 
+        LinearLayout selectedLayout;
+
         public AdapterViewHolder(@NonNull View itemView) {
             super(itemView);
             titleTV = itemView.findViewById(R.id.title_tv);
+            selectedLayout = itemView.findViewById(R.id.selected_layout);
 
         }
     }

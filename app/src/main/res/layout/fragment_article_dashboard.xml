@@ -6,16 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".ui.article_dashboard.ArticleDashboardFragment">
 
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/item_horizontal_margin"
+        android:fontFamily="@font/droid_kuffi"
+        android:gravity="center"
+        android:paddingStart="@dimen/activity_horizontal_padding"
+        android:paddingTop="@dimen/item_vertical_padding"
+        android:paddingEnd="@dimen/item_horizontal_padding"
+        android:paddingBottom="@dimen/item_vertical_padding"
+        android:text="@string/search"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:drawableEndCompat="@drawable/story_article"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/category_rv"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="@dimen/item_vertical_margin"
         android:padding="@dimen/item_vertical_padding"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/search_view" />
 
 
     <androidx.recyclerview.widget.RecyclerView

@@ -11,7 +11,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Article implements Serializable {
+public class Concept implements Serializable {
     private String id;
     private String categoryId;
     private String title;

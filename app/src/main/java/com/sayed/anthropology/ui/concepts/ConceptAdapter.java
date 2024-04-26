@@ -1,53 +1,47 @@
-package com.sayed.anthropology.ui.article_dashboard;
+package com.sayed.anthropology.ui.concepts;
 
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.sayed.anthropology.R;
 import com.sayed.anthropology.data.StringUtils;
-import com.sayed.anthropology.model.Article;
-import com.sayed.anthropology.utils.AssetUtils;
+import com.sayed.anthropology.model.Concept;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.AdapterViewHolder> {
-    private List<Article> dataList = new ArrayList<>();
+public class ConceptAdapter extends RecyclerView.Adapter<ConceptAdapter.AdapterViewHolder> {
+    private List<Concept> dataList = new ArrayList<>();
     private Fragment fragment;
 
-    public ArticleAdapter(Fragment fragment) {
+    public ConceptAdapter(Fragment fragment) {
         this.fragment = fragment;
     }
 
     @NonNull
     @Override
     public AdapterViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new AdapterViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.cardview_article, parent, false));
+        return new AdapterViewHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.cardview_concept, parent, false));
     }
 
     @Override
     public void onBindViewHolder(@NonNull AdapterViewHolder holder, int position) {
         holder.titleTV.setText(dataList.get(position).getTitle());
         holder.textTv.setText(StringUtils.shortenString(dataList.get(position).getText(), 100));
-        Drawable imageDrawable = AssetUtils.getImageDrawable(fragment.getContext(), dataList.get(position).getId());
-        if (imageDrawable == null) {
-            holder.articleImageCardView.setVisibility(View.GONE);
-        } else {
-            holder.articleImageCardView.setVisibility(View.VISIBLE);
-            holder.articleImage.setImageDrawable(imageDrawable);
-        }
         holder.itemView.setOnClickListener(view -> {
-            ((ArticleDashboardFragment) fragment).openArticleFragment(dataList.get(position));
+            if (holder.textTv.getText().length() > 103) {
+                holder.textTv.setText(StringUtils.shortenString(dataList.get(position).getText(), 100));
+            } else {
+                holder.textTv.setText(dataList.get(position).getText());
+            }
+
         });
     }
 
@@ -60,11 +54,11 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.AdapterV
         return dataList.size();
     }
 
-    public List<Article> getDataList() {
+    public List<Concept> getDataList() {
         return dataList;
     }
 
-    public void setDataList(List<Article> dataList) {
+    public void setDataList(List<Concept> dataList) {
         this.dataList = dataList;
         notifyDataSetChanged();
     }
@@ -73,15 +67,11 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.AdapterV
     public class AdapterViewHolder extends RecyclerView.ViewHolder {
 
         TextView titleTV, textTv;
-        ImageView articleImage;
-        CardView articleImageCardView;
 
         public AdapterViewHolder(@NonNull View itemView) {
             super(itemView);
             titleTV = itemView.findViewById(R.id.title_tv);
             textTv = itemView.findViewById(R.id.text_tv);
-            articleImage = itemView.findViewById(R.id.article_image);
-            articleImageCardView = itemView.findViewById(R.id.article_image_cardview);
         }
     }
 }

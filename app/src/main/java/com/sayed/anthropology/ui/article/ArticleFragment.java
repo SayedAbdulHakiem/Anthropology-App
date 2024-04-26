@@ -2,6 +2,7 @@ package com.sayed.anthropology.ui.article;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
@@ -115,12 +116,18 @@ public class ArticleFragment extends Fragment {
             openArticleTestFragment(this.article);
         });
         binding.dictionaryBtn.setOnClickListener(view -> {
-            openArticleDictionaryFragment(this.article);
+            openConceptsFragment(this.article);
         });
     }
 
     private void setArticleData(Article article) {
-        binding.articleImage.setImageDrawable(AssetUtils.getImageDrawable(requireActivity(), article.getId()));
+        Drawable imageDrawable = AssetUtils.getImageDrawable(requireActivity(), article.getId());
+        if (imageDrawable == null) {
+            binding.articleImageCardview.setVisibility(View.GONE);
+        } else {
+            binding.articleImageCardview.setVisibility(View.VISIBLE);
+            binding.articleImage.setImageDrawable(imageDrawable);
+        }
         binding.titleTv.setText(article.getTitle());
         binding.textTv.setText(article.getText());
         spokenText = article.getText();
@@ -250,11 +257,10 @@ public class ArticleFragment extends Fragment {
 //        navController.navigate(R.id.navigation_article_test, bundle);
     }
 
-    public void openArticleDictionaryFragment(Article article) {
+    public void openConceptsFragment(Article article) {
         Bundle bundle = new Bundle();
-        bundle.putSerializable("article", article);
         NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment_activity_main);
-        navController.navigate(R.id.navigation_dictionary, bundle);
+        navController.navigate(R.id.navigation_concept, bundle);
     }
 
 

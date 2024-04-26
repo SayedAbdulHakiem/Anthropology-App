@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/navigation_story_dashboard"
+        android:id="@+id/navigation_article_dashboard"
         android:icon="@drawable/story_article"
         android:iconTintMode="screen"
-        android:title="@string/title_article_dashboard" />
+        android:title="@string/home" />
 
     <item
-        android:id="@+id/navigation_dictionary"
+        android:id="@+id/navigation_concept"
         android:icon="@drawable/dictionary"
-        android:title="@string/title_dictionary" />
+        android:title="@string/title_concepts" />
 
     <item
         android:id="@+id/navigation_notifications"

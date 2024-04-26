@@ -21,11 +21,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.AdapterViewHolder> {
+public class ConceptAdapter extends RecyclerView.Adapter<ConceptAdapter.AdapterViewHolder> {
     private List<Article> dataList = new ArrayList<>();
     private Fragment fragment;
 
-    public ArticleAdapter(Fragment fragment) {
+    public ConceptAdapter(Fragment fragment) {
         this.fragment = fragment;
     }
 
