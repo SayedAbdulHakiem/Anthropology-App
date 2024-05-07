@@ -102,6 +102,21 @@
                         app:layout_constraintTop_toBottomOf="@id/play_speech_layout" />
 
                     <TextView
+                        android:id="@+id/supervision_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/item_vertical_margin"
+                        android:fontFamily="@font/droid_kuffi_bold"
+                        android:gravity="center"
+                        android:paddingStart="@dimen/item_horizontal_padding"
+                        android:paddingEnd="@dimen/item_horizontal_padding"
+                        android:textColorHint="@color/cardview_dark_background"
+                        android:textSize="@dimen/text_size_medium"
+                        app:layout_constraintEnd_toEndOf="@+id/about_app_tv"
+                        app:layout_constraintStart_toStartOf="@+id/about_app_tv"
+                        app:layout_constraintTop_toBottomOf="@id/about_app_tv" />
+                    <TextView
                         android:id="@+id/names_tv"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -113,9 +128,9 @@
                         android:paddingEnd="@dimen/item_horizontal_padding"
                         android:textColorHint="@color/cardview_dark_background"
                         android:textSize="@dimen/text_size_small"
-                        app:layout_constraintEnd_toEndOf="@+id/about_app_tv"
-                        app:layout_constraintStart_toStartOf="@+id/about_app_tv"
-                        app:layout_constraintTop_toBottomOf="@id/about_app_tv" />
+                        app:layout_constraintEnd_toEndOf="@+id/supervision_tv"
+                        app:layout_constraintStart_toStartOf="@+id/supervision_tv"
+                        app:layout_constraintTop_toBottomOf="@id/supervision_tv" />
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>

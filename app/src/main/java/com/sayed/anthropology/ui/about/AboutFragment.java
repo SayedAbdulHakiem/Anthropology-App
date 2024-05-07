@@ -21,12 +21,19 @@ public class AboutFragment extends Fragment {
                 new ViewModelProvider(this).get(AboutViewModel.class);
 
         binding = FragmentAboutBinding.inflate(inflater, container, false);
+        StringBuilder supervision = new StringBuilder();
+        supervision.append("تحت إشراف");
+        supervision.append("\n");
+        supervision.append("د/ نادية عبد القادر محمد");
+        supervision.append("\n");
+        supervision.append("مدرس الأنثروبولوجيا بالقسم");
+        supervision.append("\n");
+        supervision.append("2023 - 2024 ");
+        binding.supervisionTv.setText(supervision.toString());
+
         StringBuilder names = new StringBuilder();
-        names.append("إشراف ومتابعة دكتور:- نادية عبد القادر");
-        names.append("\n");
+
         names.append("إعداد كلاُ من :-");
-        names.append("\n");
-        names.append("رحمة عصمت أحمد عجمي");
         names.append("\n");
         names.append("آلاء حمدي حمدان حسن");
         names.append("\n");
@@ -43,6 +50,8 @@ public class AboutFragment extends Fragment {
         names.append("داليا أحمد محمد عبده");
         names.append("\n");
         names.append("رحاب صابر يماني عبد الرسول");
+        names.append("\n");
+        names.append("رحمة عصمت أحمد عجمي");
         names.append("\n");
         names.append("رشا عماد راغب حسين");
         names.append("\n");
