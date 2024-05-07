@@ -108,6 +108,7 @@
                         android:layout_gravity="center"
                         android:fontFamily="@font/droid_kuffi"
                         android:gravity="start"
+                        android:layout_marginTop="@dimen/item_vertical_margin"
                         android:paddingStart="@dimen/item_horizontal_padding"
                         android:paddingEnd="@dimen/item_horizontal_padding"
                         android:textColorHint="@color/cardview_dark_background"
