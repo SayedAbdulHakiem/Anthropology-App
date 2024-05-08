@@ -43,10 +43,5 @@
         android:name="com.sayed.anthropology.ui.about.AboutFragment"
         android:label="@string/title_about"
         tools:layout="@layout/fragment_about" />
-    <fragment
-        android:id="@+id/navigation_pdf_view"
-        android:name="com.sayed.anthropology.ui.pdf_view.PdfViewFragment"
-        android:label="@string/title_pdf_view"
-        tools:layout="@layout/fragment_pdf_view" />
 
 </navigation>

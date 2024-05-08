@@ -16,10 +16,6 @@
         android:id="@+id/navigation_about"
         android:icon="@drawable/ic_info_24"
         android:title="@string/title_about" />
-
-    <item
-        android:id="@+id/navigation_pdf_view"
-        android:icon="@drawable/ic_book_24"
-        android:title="@string/title_pdf_view" />
+    
 
 </menu>
