@@ -4,10 +4,13 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+import lombok.Getter;
+
 public class AppUtils extends Application {
     private SharedPreferences sharedPreferences;
     public static final String MY_PREFERENCE_KEY = "anthropologyAppKey";
     public static final String LAST_PAGE_VIEWED_PDF = "lastPageViewedKey";
+    @Getter
     static AppUtils instance;
 
     @Override
@@ -16,10 +19,6 @@ public class AppUtils extends Application {
         instance = this;
         sharedPreferences = getSharedPreferences(MY_PREFERENCE_KEY, Context.MODE_PRIVATE);
 
-    }
-
-    public static AppUtils getInstance() {
-        return instance;
     }
 
     public void saveLastPageViewed(int lastPage) {
