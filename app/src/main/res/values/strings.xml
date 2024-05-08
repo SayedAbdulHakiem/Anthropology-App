@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">أنثربولوجي</string>
     <string name="home">الرئيسية</string>
-    <string name="title_notifications">تعريف</string>
+    <string name="title_about">تعريف</string>
     <string name="text">المحتوى</string>
     <string name="title">العنوان</string>
     <string name="title_article">مقالة</string>
@@ -13,4 +13,5 @@
     <string name="splash_text">احد تطبيقات علم الأنثربولوجي</string>
     <string name="splash_sub_text">جامعة عين شمس / كلية البنات</string>
     <string name="about_app">دور الطب الشرعي في إثبات جرائم المرأة والجرائم ضد المرأة في المجتمع المصري \n  دراسة أنثروبولوجية \n مشروع التخرج اجتماع _ أنثروبولوجيا وفولكلوري</string>
+    <string name="title_pdf_view">عرض الكتاب</string>
 </resources>

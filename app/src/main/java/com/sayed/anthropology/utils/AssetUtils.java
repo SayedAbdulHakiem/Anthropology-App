@@ -23,10 +23,16 @@ public class AssetUtils {
     public static String ARTICLE_TEXT_EXTENSION = ".json";
     public static String ARTICLE_CATEGORIES_FULL_PATH = "categories/article_categories.json";
 
+    public static String PDF_PATH = "pdf/";
+    public static String PDF_EXTENSION = ".pdf";
+
     private static String getImagePath(String articleId) {
         return IMAGES_PATH + articleId + IMAGE_EXTENSION;
     }
 
+    public static String getPdfPath(String bookId) {
+        return PDF_PATH + bookId + PDF_EXTENSION;
+    }
     private static String getArticleTextPath(String articleId) {
         return ARTICLE_TEXT_PATH + articleId + ARTICLE_TEXT_EXTENSION;
     }
@@ -58,6 +64,16 @@ public class AssetUtils {
         }
     }
 
+    public static InputStream getPdf(Context context, String bookId) {
+        if (!StringUtils.hasText(bookId)) {
+            return null;
+        }
+        try {
+            return context.getAssets().open(getPdfPath(bookId));
+        } catch (IOException e) {
+            return null;
+        }
+    }
     public static Article getArticleFromJson(Context context, String articleId) {
         if (!StringUtils.hasText(articleId)) {
             return null;

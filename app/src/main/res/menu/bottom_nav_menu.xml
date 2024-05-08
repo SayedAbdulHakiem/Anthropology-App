@@ -3,20 +3,23 @@
     <item
         android:id="@+id/navigation_article_dashboard"
         android:icon="@drawable/story_article"
-        android:iconTint="@color/white"
+        android:iconTint="?attr/colorPrimaryVariant"
         android:title="@string/home" />
 
     <item
         android:id="@+id/navigation_concept"
         android:icon="@drawable/concepts"
-        android:iconTint="@color/white"
+        android:iconTint="?attr/colorPrimaryVariant"
         android:title="@string/title_concepts" />
 
     <item
         android:id="@+id/navigation_about"
-        android:icon="@drawable/ic_notifications_16dp"
-        android:iconTint="@color/white"
-        android:title="@string/title_notifications" />
+        android:icon="@drawable/ic_info_24"
+        android:title="@string/title_about" />
 
+    <item
+        android:id="@+id/navigation_pdf_view"
+        android:icon="@drawable/ic_book_24"
+        android:title="@string/title_pdf_view" />
 
 </menu>
