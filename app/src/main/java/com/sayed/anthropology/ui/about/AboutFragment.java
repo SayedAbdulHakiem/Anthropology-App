@@ -1,5 +1,7 @@
 package com.sayed.anthropology.ui.about;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,6 +23,11 @@ public class AboutFragment extends Fragment {
                 new ViewModelProvider(this).get(AboutViewModel.class);
 
         binding = FragmentAboutBinding.inflate(inflater, container, false);
+        binding.pdfUrl.setOnClickListener(view -> {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1f8XLU1IhHCxTWjO4wNwPXPM6XSy_ok4c/view?usp=sharing"));
+            startActivity(browserIntent);
+        });
+
         StringBuilder supervision = new StringBuilder();
         supervision.append("تحت إشراف");
         supervision.append("\n");

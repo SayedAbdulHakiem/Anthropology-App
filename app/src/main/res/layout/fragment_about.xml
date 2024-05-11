@@ -18,9 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-
             <androidx.cardview.widget.CardView
-                android:id="@+id/article_cardview"
+                android:id="@+id/header_cardview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:cardCornerRadius="30dp"
@@ -34,7 +33,7 @@
                     android:padding="@dimen/activity_horizontal_padding">
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/article_image_cardview"
+                        android:id="@+id/faculty_image_cardview"
                         android:layout_width="320dp"
                         android:layout_height="150dp"
                         android:visibility="visible"
@@ -44,7 +43,7 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                         <ImageView
-                            android:id="@+id/article_image"
+                            android:id="@+id/faculty_image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/style_bordered"
@@ -53,40 +52,44 @@
                             android:src="@drawable/faculty_logo" />
                     </androidx.cardview.widget.CardView>
 
-                    <LinearLayout
-                        android:id="@+id/play_speech_layout"
+                    <Button
+                        android:id="@+id/pdf_url"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/droid_kuffi_bold"
+                        android:text="@string/title_pdf_view"
+                        app:layout_constraintEnd_toEndOf="@id/faculty_image_cardview"
+                        app:layout_constraintStart_toStartOf="@id/faculty_image_cardview"
+                        app:layout_constraintTop_toBottomOf="@id/faculty_image_cardview" />
+                    <!--https://drive.google.com/file/d/1f8XLU1IhHCxTWjO4wNwPXPM6XSy_ok4c/view?usp=sharing-->
+
+
+                    <TextView
+                        android:id="@+id/about_anthropology_tv"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/item_vertical_margin"
-                        android:background="@drawable/style_custom_radius_backg"
-                        android:backgroundTint="@color/material_on_background_disabled"
-                        android:padding="@dimen/item_horizontal_padding"
-                        android:paddingHorizontal="@dimen/item_horizontal_padding"
-                        android:visibility="gone"
-                        app:layout_constraintEnd_toEndOf="@id/article_image_cardview"
-                        app:layout_constraintStart_toStartOf="@id/article_image_cardview"
-                        app:layout_constraintTop_toBottomOf="@id/article_image_cardview">
-
-                        <ImageView
-                            android:id="@+id/play_icon"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/speak" />
-
-                        <androidx.appcompat.widget.AppCompatSeekBar
-                            android:id="@+id/article_audio_seekbar"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:progress="0" />
-                    </LinearLayout>
-
+                        android:layout_marginVertical="@dimen/activity_vertical_margin"
+                        android:layout_marginStart="@dimen/item_horizontal_margin"
+                        android:fontFamily="@font/droid_kuffi"
+                        android:gravity="start"
+                        android:paddingStart="@dimen/item_horizontal_padding"
+                        android:paddingTop="@dimen/item_vertical_padding"
+                        android:paddingEnd="@dimen/item_horizontal_padding"
+                        android:paddingBottom="@dimen/item_vertical_padding"
+                        android:text="@string/about_anthropology"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="normal"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/pdf_url" />
 
                     <TextView
                         android:id="@+id/about_app_tv"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/item_horizontal_margin"
-                        android:layout_marginTop="@dimen/item_vertical_margin"
+                        android:layout_marginVertical="@dimen/activity_vertical_margin"
                         android:fontFamily="@font/droid_kuffi"
                         android:gravity="start"
                         android:paddingStart="@dimen/item_horizontal_padding"
@@ -99,7 +102,7 @@
                         android:visibility="visible"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/play_speech_layout" />
+                        app:layout_constraintTop_toBottomOf="@id/about_anthropology_tv" />
 
                     <TextView
                         android:id="@+id/supervision_tv"
@@ -132,8 +135,8 @@
                         app:layout_constraintStart_toStartOf="@+id/supervision_tv"
                         app:layout_constraintTop_toBottomOf="@id/supervision_tv" />
 
-
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             </androidx.cardview.widget.CardView>
 
