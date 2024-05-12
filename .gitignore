@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+caches
+jdks
+native
+wrapper
+daemon
+.tmp/gradle15427715302737851450.bin
+.tmp/gradle531967235274248337.bin
+.tmp/gradle_download12354043634569501488bin
+android/FakeDependency.jar
+final-apk/anthroplogy-app-final.apk
